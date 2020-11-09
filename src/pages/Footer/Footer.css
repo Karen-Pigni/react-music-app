@@ -1,0 +1,41 @@
+Footer {
+background-color: white;
+}
+
+.flexFoot {
+    display: flex;
+    justify-content: center;
+}
+
+.icoFootArr {
+    width: 35px;
+    margin-left: 48.3%;
+    margin-top: 1.5rem;
+}
+
+.icoFoot1 {
+    max-width: 30px;
+    margin-top: 1.5rem;
+}
+
+.icoFoot1:Hover {
+    transform: rotate(360deg);
+    transition-duration: 1s;
+}
+
+.icoFoot {
+    max-width: 30px;
+    margin-left: 2rem;
+    margin-top: 1.5rem;
+}
+
+.icoFoot:Hover {
+    transform: rotate(360deg);
+    transition-duration: 1s;
+}
+
+.DerechosR {
+    text-align: center;
+    margin-top: 2rem;
+    padding-bottom: 1.5rem;
+}
