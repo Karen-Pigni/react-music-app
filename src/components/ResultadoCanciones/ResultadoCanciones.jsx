@@ -1,10 +1,13 @@
-import React from 'react'
+import React, {Fragment} from 'react'
+import './ResultadoCanciones.css'
 
 const ResultadoCanciones = () => {
     return (
-        <div>
-            <h1>resultado</h1>
+        <Fragment>
+        <div ClassName="container">
+           sasa
         </div>
+        </Fragment>
     )
 }
 
