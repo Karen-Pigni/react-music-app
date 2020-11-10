@@ -1,19 +1,28 @@
 import React from 'react';
 
-
-
 import './App.css';
-import Home from './pages/home/Home';
-
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
+import Home from './pages/Home/Home';
+import Letra from './pages/Letra/Letra';
 
 
 function App() {
   return (
   
-    <div>
-         <Home/>
-   
-    </div>
+        <Router>
+        <Switch>  
+          <Route path="/" exact>
+           <Home />
+          </Route>
+            <Route path="/Letra">
+           <Letra/>
+          </Route>
+           <Route path="/Contacto">
+           Contacto
+          </Route>
+        </Switch>
+        
+        </Router>
   
   );
 }

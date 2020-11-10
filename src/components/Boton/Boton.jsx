@@ -1,10 +1,10 @@
 import React, {Fragment} from 'react'
 import './Boton.css'
 
-const Button = () => {
+const Button = (props) => {
     return (
         <Fragment>
-            <button>Botonazo!</button>
+            <button>Search</button>
         </Fragment>
     )
 }
