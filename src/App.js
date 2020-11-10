@@ -1,11 +1,10 @@
 import React from 'react';
-
-import './App.css';
 import Rutas from './pages/Navegacion/Rutas';
+import './App.css';
 
 function App() {
   return (
-        <Rutas/>
+       <Rutas/>
   
   );
 }
