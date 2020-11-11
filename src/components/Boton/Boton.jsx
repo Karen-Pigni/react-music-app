@@ -1,11 +1,11 @@
 import React, {Fragment} from 'react'
 import './Boton.css'
 
-const Button = (props) => {
+const Button = ({getCanciones}) => {
     return (
-        <Fragment>
-            <button>Search</button>
-        </Fragment>
+        <>
+            <button onClick={getCanciones}>Search</button>
+        </>
     )
 }
 

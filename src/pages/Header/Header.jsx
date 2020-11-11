@@ -3,12 +3,12 @@ import SearchBar from '../../components/SearchBar/SearchBar'
 import Navegacion from '../Navegacion/Navegacion'
 import './Header.css'
 
-const Header = () => {
+const Header = ({getCanciones}) => {
     return (
         <header>
       <Navegacion/>
             <h1>Canciones Piolas</h1>
-            <SearchBar/>
+            <SearchBar getCanciones={getCanciones}/>
         </header>
     )
 }
